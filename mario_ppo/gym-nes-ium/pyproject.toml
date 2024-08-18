@@ -1,0 +1,40 @@
+[project]
+name = "nes_py"
+version = "9.0.-"
+description = """A wrapper around SimpleNES to provide Farama Gymnasium environment
+interfaces."""
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.5"
+license = { file = "LICENSE" }
+authors = [
+    { name = " Christian Kauten", email = "ckfour@icloud.com" },
+]
+maintainers = [
+    { name = "Roberto Schiavone", email = "hello@robertoschiavone.io" },
+]
+keywords = ["Nintendo Entertainment System", "Reinforcement Learning"]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: POSIX :: Linux',
+    'Operating System :: Microsoft :: Windows',
+    'Programming Language :: C++',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Topic :: Games/Entertainment',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: System :: Emulators',
+]
+
+[project.urls]
+homepage = "https://github.com/robertoschiavone/gym-nes-ium"
+documentation = "https://github.com/robertoschiavone/gym-nes-ium"
+repository = "https://github.com/robertoschiavone/gym-nes-ium.git"
+changelog = "https://github.com/robertoschiavone/gym-nes-ium/releases"
